@@ -30,14 +30,50 @@
 /* Structual Style */
 html {
     background-image: url('lake_background.png');
+    background-position: center;
+    font-family: Champagne;
+    font-family: Dobkin;
+    font-family: Monserrat, sans-serif;
 }
 
 body {
-    background-color: rgba(240, 250, 250, .63);
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+/* Navigation Styles */
+header nav {
+    background-color: rgb(80, 120, 158);
+    padding: 10px 0px 10px 0px;
+}
+
+header nav a:hover,
+header nav a:focus {
+    color: rgba(185, 26, 26, 0.7);
+}
+
+header nav a:visited,
+header nav a:link {
+    color: rgba(158, 120, 80);
+    text-decoration: none;
+}
+
+#rightcol {
+    background-color: rgb(80, 120, 158);
+}
+
+#rightcol nav ul {
+    padding: 0px 8px 0px 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#rightcol nav a {
+    text-decoration: none;
+    color: rgb(158, 120, 80);
 }
 
 /* Heading Styles */
-/* Navigation Styles */
 /* Article Styles */
 /* Aside Styles */
 /* Blockquote Styles*/
