@@ -14,6 +14,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+/* This imports a google font and allows usage in the style rules */
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -30,6 +32,7 @@
 /* Structual Style */
 html {
     background-image: url('lake_background.png');
+    background-attachment: fixed;
     background-position: center;
     font-family: Champagne;
     font-family: Dobkin;
@@ -41,6 +44,7 @@ body {
     text-align: center;
 }
 
+/* This sets an image, fonts and colors for the entire document and aligns text */
 /* Navigation Styles */
 header nav {
     background-color: rgb(80, 120, 158);
@@ -54,12 +58,13 @@ header nav a:focus {
 
 header nav a:visited,
 header nav a:link {
-    color: rgba(158, 120, 80);
+    color: rgb(255, 132, 0);
     text-decoration: none;
 }
 
 #rightcol {
     background-color: rgb(80, 120, 158);
+    color: rgb(255, 132, 0);
 }
 
 #rightcol nav ul {
@@ -70,11 +75,53 @@ header nav a:link {
 
 #rightcol nav a {
     text-decoration: none;
-    color: rgb(158, 120, 80);
+    color: rgb(255, 132, 0);
 }
 
+/* This mostly sets the colors, padding and margins for the content on the right side of the web page since its in the id of rightcol */
+
 /* Heading Styles */
+
+#leftcol {
+    color: rgb(255, 132, 0);
+}
+#leftcol p {
+    text-align: left;
+    margin: 20px 10px;
+    color: rgb(255, 132, 0);
+}
 /* Article Styles */
+
 /* Aside Styles */
+
+aside {
+    color: rgb(255, 132, 0);
+    
+}
+
+aside ul {
+    list-style-type: none;
+    text-align: left;    
+}
+
+
+aside a:visited, aside a:link {
+    color: rgb(132, 240, 0);
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: rgb(250, 100, 0);
+    font-size: 1.3em;
+}
 /* Blockquote Styles*/
+
+
 /* Footer Styles */
+footer {
+    background-color: rgb(80, 120, 158);
+    padding: 5px 0px 5px 0px;
+    color: rgb(255, 132, 0);
+}
+
+/* This makes the text look different by it being in a different place on the page and having effects on certain anchors to other documents */
